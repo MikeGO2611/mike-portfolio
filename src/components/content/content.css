@@ -1,0 +1,56 @@
+p{
+    padding-top: 2rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0px 15%;
+}
+
+em{
+    font-style: normal;
+    font-weight: 600;
+    filter: drop-shadow(0px 0px 5px #974646);
+}
+
+#nav-bar{
+    display: flex;
+}
+
+.title{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.button{
+    transition: 400ms;
+    font-weight: 400;
+    font-size: 1.25rem;
+    flex-grow: 1;
+    height: 5rem;
+    background-color: #1b1b1b;
+    border: none;
+}
+
+.button:hover{
+    transition: 75ms;
+    font-weight: 800;
+    flex-grow: 1.15;
+    background-color: #692a2a;
+    filter: drop-shadow(0px 0px 10px 100px #692a2a);
+}
+
+.content{
+    margin: 2rem 0rem;
+}
+
+.hidden {
+    transition: 25ms;
+    opacity: 0%;
+}
+
+.visible{
+    transition: 25ms;
+    opacity: 100%;
+}
+
